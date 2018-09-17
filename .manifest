@@ -1,0 +1,9 @@
+{
+	"platforms": ["web", "android"],
+	"minify": true,
+	"templater": "jinja2",
+	"properties": {
+		"title": "pureqml-examples",
+		"version": "0.0.1"
+	}
+}
