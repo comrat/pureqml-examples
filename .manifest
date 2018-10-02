@@ -3,7 +3,7 @@
 	"minify": true,
 	"templater": "jinja2",
 	"properties": {
-		"title": "pureqml-examples",
+		"title": "pureqmlexamples",
 		"version": "0.0.1"
 	}
 }
