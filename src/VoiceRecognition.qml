@@ -5,28 +5,28 @@ Object {
 	startListening(callback): {
 		var speechRecognition = window.plugins.speechRecognition
 		var ctx = this._context
-		speechRecognition.hasPermission(function() {
+		speechRecognition.hasPermission(ctx.wrapNativeCallback(function() {
 			log("I got permissin")
 			speechRecognition.startListening(
-				function(data) {
-					ctx._processActions()
-				}, function(err) {
-					log("Err", err)
+				ctx.wrapNativeCallback(function(data) {
+					log("Got recognized words", data)
+					callback(data)
+				}),
+				ctx.wrapNativeCallback(function(err) {
+					log("Failed to get recognixed words", err)
 					speechRecognition.requestPermission(
-						function(req) { log("Request permission") },
-						function(err) { log("Failed to get permission", err) })
+						ctx.wrapNativeCallback(function(req) { log("Request permission") }),
+						ctx.wrapNativeCallback(function(err) { log("Failed to get permission", err) })
 					)
-					ctx._processActions()
-				}, this._options
+				}), this._options
 			)
-			ctx._processActions()
-		}, function() {
+		}), ctx.wrapNativeCallback(function() {
 			log("No i don't")
 			speechRecognition.requestPermission(
-				function(req) { log("Request permission") },
-				function(err) { log("Failed to get permission", err) })
-			ctx._processActions()
-		})
+				ctx.wrapNativeCallback(function(req) { log("Request permission") }),
+				ctx.wrapNativeCallback(function(err) { log("Failed to get permission", err) })
+			)
+		}))
 	}
 
 	onCompleted: {
