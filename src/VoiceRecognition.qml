@@ -13,7 +13,7 @@ Object {
 					callback(data)
 				}),
 				ctx.wrapNativeCallback(function(err) {
-					log("Failed to get recognixed words", err)
+					log("Failed to get recognized words", err)
 					speechRecognition.requestPermission(
 						ctx.wrapNativeCallback(function(req) { log("Request permission") }),
 						ctx.wrapNativeCallback(function(err) { log("Failed to get permission", err) })
