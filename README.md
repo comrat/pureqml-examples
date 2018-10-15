@@ -18,3 +18,11 @@ Install app on android:
 
 ### 1.3. Preview
 ![GitHub Logo](https://github.com/comrat/pureqml-examples/raw/master/dist/screens/camera.png)
+
+## 2. Voice
+### 2.1. Description
+Simple voice recognition app. Just press button and try to say something.
+### 1.2. Build & Install
+```
+./smart-tv-deployer/build.py -p android -a voice
+```
