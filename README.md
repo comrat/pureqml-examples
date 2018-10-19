@@ -26,3 +26,6 @@ Simple voice recognition app. Just press button and try to say something.
 ```
 ./smart-tv-deployer/build.py -p android -a voice
 ```
+
+### 1.3. Preview
+![GitHub Logo](https://github.com/comrat/pureqml-examples/raw/master/dist/screens/voice.jpg)
