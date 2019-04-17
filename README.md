@@ -40,4 +40,4 @@ Build and install app on android:
 ./smart-tv-deployer/build.py -p android -a webgl
 ```
 ### 3.3. Preview
-![GitHub Logo](https://github.com/comrat/pureqml-examples/raw/master/dist/screens/webgl.jpg)
+![GitHub Logo](https://github.com/comrat/pureqml-examples/raw/master/dist/screens/webgl.png)
