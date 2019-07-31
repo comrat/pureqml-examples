@@ -23,7 +23,8 @@ Rectangle {
 
 	Subtitles {
 		id: subtitles;
-		url: "http://www.storiesinflight.com/js_videosub/jellies.srt";
+		url: "http://localhost:8000/sample.srt";
+		progress: player.progress;
 	}
 
 	Rectangle {
