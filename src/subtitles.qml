@@ -7,18 +7,8 @@ Rectangle {
 		width: 100%;
 		height: 100%;
 		source: "http://www.storiesinflight.com/js_videosub/jellies.mp4";
-
-		ClickMixin { }
-
-		onClicked: {
-			if (!this.ready)
-				return
-
-			if (this.paused)
-				this.play()
-			else
-				this.pause()
-		}
+		autoPlay: true;
+		loop: true;
 	}
 
 	Subtitles {
