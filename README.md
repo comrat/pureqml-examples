@@ -41,3 +41,13 @@ Build and install app on android:
 ```
 ### 3.3. Preview
 ![GitHub Logo](https://github.com/comrat/pureqml-examples/raw/master/dist/screens/webgl.png)
+
+
+## 4. Subtitles
+### 4.1. Description
+Subtitles control can parse .srt subtitle and trigger corresponded line than attached video player progress occurs.
+### 4.2. Build & Install
+```
+./smart-tv-deployer/build.py -p webos -a subtiles
+```
+### 4.3. Preview
