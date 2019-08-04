@@ -51,3 +51,4 @@ Subtitles control can parse .srt subtitle and trigger corresponded line than att
 ./smart-tv-deployer/build.py -p webos -a subtiles
 ```
 ### 4.3. Preview
+![GitHub Logo](https://github.com/comrat/pureqml-examples/raw/master/dist/screens/subtitles.png)
