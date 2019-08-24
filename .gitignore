@@ -1,3 +1,5 @@
+*.zip
+*.ipk
 .cache
 build.web
 build.android
