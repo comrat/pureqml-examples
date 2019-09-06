@@ -52,3 +52,12 @@ Subtitles control can parse .srt subtitle and trigger corresponded line than att
 ```
 ### 4.3. Preview
 ![GitHub Logo](https://github.com/comrat/pureqml-examples/raw/master/dist/screens/subtitles.png)
+
+
+## 5. DRM Video
+### 5.1. Description
+PlayeReady+SmoothStreaming DRM video player example.
+### 5.2. Build & Install
+```
+./smart-tv-deployer/build.py -p webos -a drmvideo
+```
