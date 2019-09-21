@@ -61,3 +61,11 @@ PlayeReady+SmoothStreaming DRM video player example.
 ```
 ./smart-tv-deployer/build.py -p webos -a drmvideo
 ```
+
+## 6. WebOS App launcher
+### 6.1. Description
+Launch another WebOS application from current one
+### 6.2. Build & Install
+```
+./smart-tv-deployer/build.py -p webos -a webosapplauncher
+```
