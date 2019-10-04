@@ -7,3 +7,4 @@ build.webos
 build.tizen
 build.orsay
 build.netcast
+build.webextension
