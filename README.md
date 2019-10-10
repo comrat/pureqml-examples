@@ -69,3 +69,12 @@ Launch another WebOS application from current one
 ```
 ./smart-tv-deployer/build.py -p webos -a webosapplauncher
 ```
+
+
+## 7. Web Extension
+### 7.1 Description
+You can build your own web extension for chrome or firefox browser. Corresponded example is extension which displays current current bitcoin price.
+### 7.2 Build & Install
+```
+./smart-tv-deployer/build.py -p webextension -a extension
+```
