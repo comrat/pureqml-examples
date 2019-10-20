@@ -78,3 +78,5 @@ You can build your own web extension for chrome or firefox browser. Corresponded
 ```
 ./smart-tv-deployer/build.py -p webextension -a extension
 ```
+### 7.3. Preview
+![GitHub Logo](https://github.com/comrat/pureqml-examples/raw/master/dist/screens/extension.png)
