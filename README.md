@@ -45,7 +45,7 @@ Build and install app on android:
 
 ## 4. Subtitles
 ### 4.1. Description
-Subtitles control can parse .srt subtitle and trigger corresponded line than attached video player progress occurs.
+Subtitles control parse .srt subtitle and displayed corresponded subtitle line according current video progress.
 ### 4.2. Build & Install
 ```
 ./smart-tv-deployer/build.py -p webos -a subtiles
